@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="cofregalactico"
+version="${file.jarVersion}"
+displayName="Cofre Galáctico"
+authors="Proyecto Cofre Galáctico"
+description='''Un cofre espacial de fácil fabricación.'''
+[[dependencies.cofregalactico]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.cofregalactico]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
