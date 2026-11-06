@@ -20,12 +20,13 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
+import net.minecraft.world.inventory.TransientCraftingContainer;
 
 public class GalacticMenu extends AbstractContainerMenu {
     public static final int STORAGE_SLOTS=45;
     private final GalacticChestBlockEntity chest;
     private final Container view=new SimpleContainer(STORAGE_SLOTS);
-    private final CraftingContainer craft=new CraftingContainer(this,3,3);
+    private final CraftingContainer craft=new TransientCraftingContainer(this,3,3);
     private final ResultContainer result=new ResultContainer();
     private final Player player;
     private String search="";
