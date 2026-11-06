@@ -2,18 +2,18 @@ modLoader="javafml"
 loaderVersion="[47,)"
 license="MIT"
 [[mods]]
-modId="cofregalactico"
+modId="cachjsstorage"
 version="${file.jarVersion}"
-displayName="Cofre Galáctico"
-authors="Proyecto Cofre Galáctico"
+displayName="Cachj's Storage"
+authors="Proyecto Cachj's Chest"
 description='''Un cofre espacial de fácil fabricación.'''
-[[dependencies.cofregalactico]]
+[[dependencies.cachjsstorage]]
 modId="forge"
 mandatory=true
 versionRange="[47,)"
 ordering="NONE"
 side="BOTH"
-[[dependencies.cofregalactico]]
+[[dependencies.cachjsstorage]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.20.1,1.20.2)"

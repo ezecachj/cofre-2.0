@@ -1,11 +1,11 @@
 plugins { id 'net.minecraftforge.gradle' version '[6.0,6.2)' }
-group = 'com.cofregalactico'
-version = '2.0.0-beta'
-base { archivesName = 'cofregalactico' }
+group = 'com.cachjsstorage'
+version = '2.2.0'
+base { archivesName = 'cachjsstorage' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 minecraft { mappings channel: 'official', version: '1.20.1'
- runs { client { workingDirectory project.file('run'); mods { cofregalactico { source sourceSets.main } } }
- server { workingDirectory project.file('run'); args '--nogui'; mods { cofregalactico { source sourceSets.main } } } }
+ runs { client { workingDirectory project.file('run'); mods { cachjsstorage { source sourceSets.main } } }
+ server { workingDirectory project.file('run'); args '--nogui'; mods { cachjsstorage { source sourceSets.main } } } }
 }
 repositories { mavenCentral() }
 dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.3.0' }
